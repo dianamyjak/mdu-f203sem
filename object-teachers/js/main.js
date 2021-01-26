@@ -33,19 +33,19 @@ console.log(teacher2);
 // Appending objects to the DOM
 
 // teacher1 - Birgitte
-document.querySelector("#grid-teachers").innerHTML +=
-  "<article>" +
-  "<img src='" + teacher1.img + "'>" +
-  "<h3>" + teacher1.name + "</h3>" +
-  teacher1.position + "<br>" +
-  "<a href='mailto:" + teacher1.mail + "'>" + teacher1.mail + "</a>" +
-  "</article>";
+document.querySelector("#grid-teachers").innerHTML +=/*html*/ `
+<article>
+  <img src='${teacher1.img}'>
+  <h3>${teacher1.name}</h3>
+  ${teacher1.position}<br>
+  <a href='mailto:${teacher1.mail}'>${teacher1.mail}</a>
+</article>`;
 
 //teacher2 - Martin
-document.querySelector("#grid-teachers").innerHTML +=
-  "<article>" +
-  "<img src='" + teacher2.img + "'>" +
-  "<h3>" + teacher2.name + "</h3>" +
-  teacher2.position + "<br>" +
-  "<a href='mailto:" + teacher2.mail + "'>" + teacher2.mail + "</a>" +
-  "</article>";
+document.querySelector("#grid-teachers").innerHTML +=/*html*/ `
+<article>
+  <img src='${teacher2.img}'>
+  <h3>${teacher2.name}</h3>
+  ${teacher2.position}<br>
+  <a href='mailto:${teacher2.mail}'>${teacher2.mail}</a>
+</article>`;
