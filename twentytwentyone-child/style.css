@@ -9,7 +9,157 @@ Version: 1.0
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
+::root{
+	--responsive--aligndefault-width: 900px;
+}
 
 body{
-	background-color: red;
+	background: white;
+	color: black; 
 }
+
+.wp-block-cover{
+	max-width: 100%;
+}
+
+.site-main{
+	padding: 0;
+}
+
+#masthead{
+	display: none;
+}
+
+
+/* E X P E R T I S E  */
+.areas-of-expertise {
+	background: url('assets/expertise_bg.svg') no-repeat top center;
+	background-size: 155%;
+	max-width: 100%!important;
+	margin: 0;
+  }
+  
+  @media (min-width: 768px) {
+	.areas-of-expertise {
+	  max-height: 1000px;
+	  min-height: 1000px;
+	}
+  }
+  
+  @media (min-width: 768px) {
+	.areas-of-expertise {
+	  padding-top: 20px;
+	  background-size: 220%;
+	}
+  }
+  
+  @media (min-width: 800px) {
+	.areas-of-expertise {
+	  background-size: 205%;
+	}
+  }
+  
+  @media (min-width: 850px) {
+	.areas-of-expertise {
+	  background-size: 190%;
+	}
+  }
+  
+  @media (min-width: 900px) {
+	.areas-of-expertise {
+	  background-size: 180%;
+	}
+  }
+  
+  @media (min-width: 992px) {
+	.areas-of-expertise {
+	  padding-top: 50px;
+	  background-size: 172%;
+	}
+  }
+  
+  @media (min-width: 1100px) {
+	.areas-of-expertise {
+	  background-size: 153%;
+	}
+  }
+  
+  @media (min-width: 1200px) {
+	.areas-of-expertise {
+	  background-size: 140%;
+	}
+  }
+  
+  @media (min-width: 1300px) {
+	.areas-of-expertise {
+	  background-size: 128%;
+	}
+  }
+  
+  @media (min-width: 1400px) {
+	.areas-of-expertise {
+	  background-size: 120%;
+	}
+  }
+  
+  @media (min-width: 1500px) {
+	.areas-of-expertise {
+	  background-size: 112%;
+	}
+  }
+  
+  @media (min-width: 1600px) {
+	.areas-of-expertise {
+	  background: url('assets/expertise_bg_large.svg') no-repeat top center;
+	  background-size: 125%;
+	}
+  }
+  
+  @media (min-width: 1700px) {
+	.areas-of-expertise {
+	  background: url('assets/expertise_bg_large.svg') no-repeat top center;
+	  background-size: 125%;
+	}
+  }
+  
+  @media (min-width: 1800px) {
+	.areas-of-expertise {
+	  background: url('assets/expertise_bg_large.svg') no-repeat top center;
+	  background-size: 117%;
+	}
+  }
+  
+  @media (min-width: 1900px) {
+	.areas-of-expertise {
+	  background: url('assets/expertise_bg_large.svg') no-repeat top center;
+	  background-size: 112%;
+	}
+  }
+  
+  @media (min-width: 2000px) {
+	.areas-of-expertise {
+	  background: url('assets/expertise_bg_large.svg') no-repeat top center;
+	  background-size: 108%;
+	}
+  }
+  
+  @media (min-width: 2200px) {
+	.areas-of-expertise {
+	  background: url('assets/expertise_bg_xl.svg') no-repeat top center;
+	  background-size: 108%;
+	}
+  }
+  
+  @media (min-width: 2300px) {
+	.areas-of-expertise {
+	  background: url('assets/expertise_bg_xl.svg') no-repeat top center;
+	  background-size: 104%;
+	}
+  }
+  
+  @media (min-width: 2400px) {
+	.areas-of-expertise {
+	  background: url('assets/expertise_bg_xl.svg') no-repeat top center;
+	  background-size: 100%;
+	}
+  }
