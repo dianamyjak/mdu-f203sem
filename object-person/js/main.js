@@ -1,8 +1,5 @@
 "use strict"; // to enable strict mode and modern JavaScript functionality
 
-// appends a string to the DOM
-document.querySelector("#content").innerHTML = "Hi Students!";
-
 function showAlert() {
   alert('Open your Developer Console!');
 }
@@ -19,7 +16,7 @@ let person = {
   specialisation: "I speak JavaScript",
   dreamJob: "Frontend Developer at Apple Inc (or Senior Lecturer)",
   funFacts: "My socks often match color combinations in my clothes.",
-  image: "https://cederdorff.com/img/rasmus.jpg",
+  image: "https://avatars3.githubusercontent.com/u/6738394",
   web: "https://cederdorff.com",
   instagram: "https://instagram.com/cederdorff/",
   linkedIn: "https://www.linkedin.com/in/cederdorff/"
@@ -27,4 +24,11 @@ let person = {
 
 console.log(person);
 
-// to do: append the object to the DOM
+// append the object to the DOM
+document.querySelector("#content").innerHTML +=/*html*/ `
+    <article>
+      <img src='${person.image}'>
+      <h3>${person.name}</h3>
+      <a href='${person.web}'>${person.web}</a>
+    </article>
+`;

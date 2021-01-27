@@ -66,7 +66,7 @@ button {
   padding: 10px;
 }
 
-.grid-container>article img {
+article img {
   max-width: 300px;
   width: 100%;
 }
