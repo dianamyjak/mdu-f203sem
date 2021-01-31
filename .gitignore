@@ -351,3 +351,5 @@ MigrationBackup/
 .ionide/
 .vscode/settings.json
 wp-twentytwentyone-child-with-assets/.vscode/sftp.json
+wp-twentytwentyone-child/.vscode/sftp.json
+*/.vscode/sftp.json
