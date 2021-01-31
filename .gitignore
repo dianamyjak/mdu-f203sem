@@ -350,3 +350,4 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 .vscode/settings.json
+wp-twentytwentyone-child-with-assets/.vscode/sftp.json
