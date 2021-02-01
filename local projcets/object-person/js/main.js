@@ -13,7 +13,7 @@ let person = {
   education: "EUX Business Event ",
   whyMDU: "Det er en udd. der giver mange muligheder",
   expectations: "At ",
-  specialisation: "I speak JavaScript",
+  specialisation: "",
   dreamJob: "Frontend Developer at Apple Inc (or Senior Lecturer)",
   funFacts: "My socks often match color combinations in my clothes.",
   image: "https://avatars3.githubusercontent.com/u/6738394",
