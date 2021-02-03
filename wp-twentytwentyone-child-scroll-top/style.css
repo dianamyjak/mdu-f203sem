@@ -1,0 +1,43 @@
+/*
+Theme Name: My Twenty Twenty One Child Theme
+Theme URI: https://example.com
+Description: A child theme for Twenty Twenty One.
+Author: Rasmus Cederdorff
+Author URI: https://cederdorff.com/
+Template: twentytwentyone
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* ---------- general ---------- */
+
+body{
+	background: white;
+	color: black; 
+}
+
+.wp-block-cover{
+	max-width: 100%;
+}
+
+.site-main{
+	padding: 0;
+}
+
+/* ---------- scroll to the top ---------- */
+
+#scrollTop {
+	display: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 99;
+	font-size: 30px;
+	border: none;
+	outline: none;
+	background-color: rgba(38, 76, 89, 0.8);
+	color: white;
+	cursor: pointer;
+	padding: 7px 20px 0px 20px;
+  }
