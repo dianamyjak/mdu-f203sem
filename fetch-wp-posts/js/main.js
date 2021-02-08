@@ -1,8 +1,8 @@
 "use strict";
 
 // const url = "http://wp-astra.cederdorff.com/wp-json/wp/v2/posts";
-// const url = "http://wp-astra.cederdorff.com/wp-json/wp/v2/posts?_embed";
-const url = "http://wp-astra.cederdorff.com/wp-json/wp/v2/posts?_embed&categories=6";
+const url = "http://wp-astra.cederdorff.com/wp-json/wp/v2/posts?_embed";
+// const url = "http://wp-astra.cederdorff.com/wp-json/wp/v2/posts?_embed&categories=6";
 
 
 fetch(url)
