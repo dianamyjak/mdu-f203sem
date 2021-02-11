@@ -25,4 +25,4 @@ function appendPosts(posts) {
   document.querySelector("#instagram-posts").innerHTML = htmlTemplate;
 }
 
-fetchInstagramPosts("cederdorff");
+fetchInstagramPosts("erhvervsakademiaarhus");

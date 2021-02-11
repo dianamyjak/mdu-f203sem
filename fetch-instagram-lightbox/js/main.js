@@ -42,5 +42,5 @@ function initLightGallery() {
   });
 }
 
-fetchInstagramPosts("cederdorff");
+fetchInstagramPosts("erhvervsakademiaarhus");
 
